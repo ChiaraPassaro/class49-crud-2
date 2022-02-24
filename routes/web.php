@@ -26,3 +26,4 @@ Route::get('/', function () {
 // Route::post('/pens', 'PenController@store')->name('pens.store');
 
 Route::resource('pens', 'PenController');
+Route::resource('glasses', 'GlassController');
