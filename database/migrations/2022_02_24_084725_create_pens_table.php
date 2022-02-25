@@ -26,7 +26,7 @@ class CreatePensTable extends Migration
             $table->smallInteger('body_length');
             $table->smallInteger('cap_length');
             $table->float('diameter');
-            $table->smallInteger('weigth');
+            $table->smallInteger('weight');
             $table->timestamps();
         });
     }

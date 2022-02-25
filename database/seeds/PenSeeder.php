@@ -26,7 +26,7 @@ class PenSeeder extends Seeder
             $newPen->body_length = $faker->randomNumber(3, false);
             $newPen->cap_length = $faker->randomNumber(2, false);
             $newPen->diameter = $faker->randomFloat(1, 20, 30);
-            $newPen->weigth = $faker->randomNumber(2, false);
+            $newPen->weight = $faker->randomNumber(2, false);
 
             $newPen->save();
         }

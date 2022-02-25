@@ -19,7 +19,7 @@ class Pen extends Model
         'body_length',
         'cap_length',
         'diameter',
-        'weigth',
+        'weight',
         'created_at',
         'updated_at',
     ];
