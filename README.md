@@ -49,8 +49,11 @@ Weight (overall) : 30 g
 `composer require fakerphp/faker`
 7. Create `migration`, `model`, `seeder`, `controller` 
 8. Create resources routes in` web.php`
-9. Create `Index`, `Show`, `Create`, `Edit`, `Update` functions
+9. Create `Index`, `Show`, `Create`, 
 10. Create layouts and pages for these routes
+11. Create `Edit`, `Update` functions
+12. Create `Destroy` function
+13. Add validation
 
 
 ## Diagram routes
@@ -63,10 +66,13 @@ Weight (overall) : 30 g
 ## Links to Laravel Docs
 ### Artisan Commands
 https://laravel.com/docs/7.x/artisan
+
 ### Models
 https://laravel.com/docs/7.x/eloquent#defining-models
+
 ### Migrations
 https://laravel.com/docs/7.x/migrations#generating-migrations
+
 ### Seeders
 https://laravel.com/docs/7.x/seeding#writing-seeders
 
